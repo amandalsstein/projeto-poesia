@@ -17,6 +17,7 @@
 
 html, body {
     min-height: 100vh;
+    max-width: 100vw;
     font-family: var(--fonte3);
 }
 
@@ -68,7 +69,7 @@ section.imagem {
     background-color: rgba(0, 0, 0, 0.712);
     color: white;
     box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.692);
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 }
 
