@@ -70,15 +70,9 @@ section.imagem {
     background-color: rgba(0, 0, 0, 0.712);
     color: white;
     box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.692);
-    background-size: cover; /* ou contain */
+    background-size: cover;
     background-repeat: no-repeat;
-}
-
-@media (max-width: 768px) {
-    section.imagem {
-        background-attachment: scroll; 
-        background-size: contain; 
-    }
+    background-attachment: fixed;
 }
 
 section.imagem > p {
