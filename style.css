@@ -21,26 +21,26 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background: linear-gradient(to right, #1f3b2a, #2c4a2e, #3f2d1a, #5e3b2a, #1f3b2a);
     color: white;
     text-align: center;
 }
 
 header > h1 {
-    padding-top: 50px;
+    padding-top: 30px;
     font-family: var(--fonte3);
     font-variant: small-caps;
-    font-size: 5vw;
+    font-size: 3em;
 }
 
 header > p {
     padding-bottom: 50px;
-    font-size: 1.5vw;
+    font-size: 1.1em;
 }
 
 a { 
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -55,6 +55,10 @@ section {
     font-family: var(--fonte2);
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -63,18 +67,33 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.712);
     color: white;
+    box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.692);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     width: 400px;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.712);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image:url(imagens/nighthawks.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(imagens/apatia.jpg);
+    background-position: right center;
 }
 
 footer {
     color: white;
-    background-color: black;
+    background: linear-gradient(to right, #1f3b2a, #2c4a2e, #3f2d1a, #5e3b2a, #1f3b2a);
     padding: 8px;
+    font-size: 18px;
     text-align: center;
 
 }
