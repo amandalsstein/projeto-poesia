@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root {
+    --fonte1: 'Courier New', Courier, monospace;
+    --fonte2: "Courier Prime", monospace;
+    --fonte3: "EB Garamond", serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +17,7 @@
 
 html, body {
     min-height: 100vh;
+    font-family: var(--fonte3);
 }
 
 header {
@@ -17,11 +28,14 @@ header {
 
 header > h1 {
     padding-top: 50px;
+    font-family: var(--fonte3);
     font-variant: small-caps;
+    font-size: 5vw;
 }
 
 header > p {
     padding-bottom: 50px;
+    font-size: 1.5vw;
 }
 
 a { 
@@ -38,6 +52,7 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte2);
 }
 
 section.normal {
@@ -52,6 +67,7 @@ section.imagem {
 
 section.imagem > p {
     width: 400px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.438);
 }
 
