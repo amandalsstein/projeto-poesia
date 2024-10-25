@@ -70,7 +70,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.692);
     background-size: contain;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 section.imagem > p {
